@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+
+}
+
+
+
+.btn a{color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 20px 0px 20px;
+    transition: 1s;
+}
+.btn a:hover{
+    background-color: brown;
+    color: black;
+}
+
+.all-img{margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/*last section*/
+
+.last{margin-top: 20px;
+    background-color: rgba(0,0,0,.4);
+    padding: 30px 0;
+
+}
+.last-txt{
+    
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.way-one{
+    margin: 20px 40px;
+}
+.way-one p{
+    margin-top: 15px;
+}
+.way-two{margin: 20px 40px;
+
+}
+.way-two h3{
+    text-align: center;
+}
+.way-two ul{display: flex;
+
+}
+.way-one i{font-size: 20px;
+    padding: 10px 10px;
+    background-color: silver;
+    color: white;
+    border-radius: 10px 0 10px;
+    margin: 20px 20px;
+    transition: 1s;
+
+}
+.way-one h3{
+    text-align: center;
+}
+.way-two ul li{margin: 20px 20px;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color:silver;
+    color:white;
+    border-radius: 10px 0 10px;
+    transition: 1s;
+}
+.way-one i:hover{
+    transform: scale(1.2);
+}
+.way-two ul li:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+/*carrection*/
+
+/*head*/
+
+.head-img {
+    position: relative;
+    background-image: linear-gradient(to right,rgba(38, 38, 38,.9),rgba(255, 102, 153,.3) ), url(./img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+.head-txt {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+.head-txt h1 {
+    font-size: 40px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.head-txt h2 {
+    font-size: 25px;
+    color:lightgreen;
+    font-family: 'Acme', sans-serif;
+    margin-top: 30px;
+    font-weight: 300;
+    white-space: 8px;
+}
+
+.head-txt p {
+    font-size: 17px;
+    width: 60%;
+    margin-top: 40px;
+    color:white ;
+    font-family: 'Acme', sans-serif;
+    margin: 10px;
+    word-spacing: 5px;
+
+}
+
+.btn {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-family: 'Acme', sans-serif;
+
+}
+
+
+
+/*next*/
+
+.all-img img {
+    height: 220px;
+    width: 300px;
+    margin: 0 50px;
+    border-radius: 20px 0 20px;
+    border: 2px solid black;
+}
+
+
+
+.last-txt h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+.last-txt h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+.order h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.way-one h3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+}
+
+.way-two h3 {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

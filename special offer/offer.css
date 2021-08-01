@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgba(18, 211, 236, 0.2),rgba(222, 243, 29, 0.4));
+
+}
+
+/*Hilsha*/
+
+.special-offer{margin-top: 30px;
+}
+
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-img{
+    margin: 80px 20px;
+}
+
+/*image-text*/
+
+.txt-head{
+    margin-top: 20px;
+}
+
+.img-txt{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-one{
+
+}
+
+.text-one img:hover{
+    transform: scale(1.02);
+}
+
+/*box section*/
+
+.box-section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,.4);
+    padding: 20px 20px;
+}
+
+
+/*carrection*/
+
+.special-offer h1 {
+    text-align: center;
+    font-size: 40px;
+    color:green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.special-offer h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vedio video {
+    height: 250px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.one img {
+    height: 220px;
+    width: 300px;
+    margin: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 2px 4px rgb(0 0 0 / 40%);
+}
+
+.txt-head h1 {
+    text-align: center;
+    font-size: 40px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txt-head p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text-one img {
+    height: 200px;
+    width: 300px;
+    margin: 5px 50px;
+    border-radius: 20px 20px;
+    box-shadow: 0px 0px 2px 4px rgb(0 0 0 / 40%);
+    transition: 1s;
+}
+
+.one-txt {
+    width: 250px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 4px white;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+.one-txt p {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+font-size: 15px;
+}
+
+.one-txt h3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+.box-txt h1 {
+    margin: 30px 0;
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-txt p {
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    width: 90%;
+    font-family: 'Rubik', sans-serif;
+
+}
+.box-txt {
+    margin: 0px 10px;
+    flex-basis: 60%;
+}
+
+.box-img {
+    flex-basis: 40%;
+    background: url(./image/dog.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    width: 400px;
+    margin: 0 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 6px rgb(0 0 0 / 40%);
+}

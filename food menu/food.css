@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background: linear-gradient(to left, rgba(202, 221, 221, 0.3),rgba(231, 174, 231, 0.5) )
+
+}
+
+/*heading*/
+
+.vedio img{position: relative;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    background: linear-gradient( to right,rgba(64, 64, 64,.7),rgba(255, 102, 255,.3) );
+}
+
+
+
+.txt{position: absolute;
+    top: 20%;
+    left: 5%;
+
+}
+.txt h1{font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+.txt h3 {
+    font-size: 30px;
+    color: lightgray;
+    margin-top: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+.txt h3{font-size: 35px;
+    color: lightgray;
+
+}
+.txt h2{font-size: 45px;
+    color:green;
+    font-family: 'Kanit', sans-serif;
+
+}
+.txt p{font-size: 20px;
+    width: 60%;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Acme', sans-serif;
+font-family: 'Kanit', sans-serif;
+
+
+
+}
+
+
+/*next*/
+
+.chili-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chili img{
+    height: 200px;
+    width: 300px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 6px rgba(0,0,0,.5);
+}
+.chil-txt{
+
+}
+
+.next p{
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+}
+
+
+/*slider*/
+
+
+.slider{
+    margin-top: 50px;
+}
+
+.image{margin-top: 30px;
+   
+}
+
+.image img:hover{
+    transform: scale(1.03);
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*carrection*/
+
+.next {
+    
+    padding: 60px 0;
+    margin-top: 40px;
+    background-color: transparent;
+}
+
+.chili img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px rgb(0 0 0 / 50%);
+}
+
+.chili-txt h1 {
+    text-align: center;
+    color:green;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.next p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    font-family: 'Acme', sans-serif;
+font-family: 'Kanit', sans-serif;
+}
+
+.slider h1 {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image img {
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 5px 7px rgba(0,0,0,.5);
+    border: 2px solid red;
+    transition: 1s;
+    display: block;
+    margin: auto;
+}
+
+.btn i {
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+    margin: 0 100px;
+    font-size: 20px;
+}
